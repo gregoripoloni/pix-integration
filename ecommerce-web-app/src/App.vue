@@ -40,7 +40,7 @@ const handleWebSocketMessage = (data) => {
           severity: 'success',
           summary: 'Pagamento confirmado',
           detail: 'O pagamento foi confirmado com sucesso',
-          life: 100000
+          life: 3000
         });
       }
       break;
